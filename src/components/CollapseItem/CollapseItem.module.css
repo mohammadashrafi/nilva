@@ -1,0 +1,20 @@
+.wrapperCollapse ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding-right: 0;
+}
+.wrapperCollapse ul li{
+    list-style: none;
+    width: 33.333%;
+    text-align: center;
+    margin: 10px 0;
+}
+.wrapperCollapse ul li img{
+    width: 25px;
+}
+.collaps{
+    width: 90%;
+   }

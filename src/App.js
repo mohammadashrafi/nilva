@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MainPage from './components/Main/MainPage';
+import 'antd/dist/antd.min.css'
+import {Routes,Route} from "react-router-dom"
+import Exploration from './page/Exploration';
+import Football from './page/Football';
+import Legs from './page/Legs';
+import Profile from './page/Profile';
 
 function App() {
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+<Routes >
+<Route path="/"  element={<MainPage/>}/>
+<Route path='explo' element={<Exploration/>}/>
+<Route path='football' element={<Football/>}/>
+<Route path='legs' element={<Legs/>}/>
+<Route path='profile' element={<Profile/>}/>
+
+</Routes>
+
     </div>
   );
 }

@@ -1,0 +1,40 @@
+.wrapperFloat{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    z-index: 22;
+    padding: 15px 0;
+    box-shadow: 0 0 6px 1px lightgray;
+}
+
+
+.wrapperFloat ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+.wrapperFloat ul li{
+    list-style: none;
+}
+
+.wrapperFloat ul li a{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.inActive{
+    color:rgb(145, 145, 145);
+}
+.Active{
+    color: green;
+    
+}
